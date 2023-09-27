@@ -1,38 +1,25 @@
-# create-svelte
+Svelte Hero Page Animation
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This project showcases a captivating hero page animation created using Svelte, Motion, and SplitType. The animation introduces the user to the "Jungle Cat" experience, guiding them through a mesmerizing journey into the jungle.
+Features
 
-## Creating a project
+    Text Animation: The hero text "Welcome to the Jungle" is split into words and animated with a staggered entrance effect, creating an engaging visual experience.
 
-If you're seeing this, you've probably already done this step. Congrats!
+    Background Image: A stunning jungle background image is scaled in and out, adding depth and immersion to the animation.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+    Foreground Images: Images of the jungle on the left and right sides slide into view, enhancing the sense of being surrounded by nature.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+    Call-to-Action (CTA) Button: A CTA button with a down arrow invites users to take action, smoothly appearing as part of the animation.
 
-## Developing
+    Loader: A loader screen with the text "Jungle Cat" is revealed before the animation starts, preventing any flashing or abrupt transitions.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Technologies Used
 
-```bash
-npm run dev
+    Svelte: The project is built using the Svelte framework, known for its reactivity and efficient rendering.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+    Motion: Animation is achieved using the Motion library, offering powerful animation capabilities.
 
-## Building
+    SplitType: Text splitting and animation are made possible by SplitType, creating dynamic typography effects.
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Credits to: Sekei Design
