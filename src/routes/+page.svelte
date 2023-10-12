@@ -3,7 +3,6 @@
 	import { timeline, stagger } from 'motion';
 	import SplitType from 'split-type';
 
-	// Import assets
 	import forestBG from '$lib/assets/forest-bg.webp';
 	import forestLeft from '$lib/assets/forest-left.webp';
 	import forestRight from '$lib/assets/forest-right.webp';
