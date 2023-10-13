@@ -44,7 +44,6 @@
 			{ delay: stagger(0.1), duration: 1, easing: [0.62, -0.01, 0.37, 0.99], at: '-0.7' }
 		];
 
-		// Animate images
 		const animateBG = [bg, { scale: [1.15, 1] }, { duration: 2, at: '<' }];
 		const animateLeft = [left, { x: [-368, 0] }, { duration: 2, at: '<' }];
 		const animateRight = [right, { x: [368, 0] }, { duration: 2, at: '<' }];
