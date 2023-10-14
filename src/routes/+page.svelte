@@ -8,7 +8,6 @@
 	import forestRight from '$lib/assets/forest-right.webp';
 	import chevronDown from '$lib/assets/chevron-down.svg';
 
-	// Initialize variables to bind our elements to
 	let heroText;
 	let ctaButton;
 	let bg;
