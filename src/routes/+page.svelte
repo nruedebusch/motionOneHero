@@ -16,7 +16,6 @@
 	let loaderBG;
 	let loaderText;
 
-	// Split and animate our design after the component renders
 	onMount(() => {
 		// Reveal loader text — Ensures the text doesn't flash
 		const revealLoader = [loaderText, { opacity: 1 }, { duration: 0 }];
