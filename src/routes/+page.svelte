@@ -20,7 +20,6 @@
 		// Reveal loader text — Ensures the text doesn't flash
 		const revealLoader = [loaderText, { opacity: 1 }, { duration: 0 }];
 
-		// Split the hero text and animate
 		const splitLoader = new SplitType(loaderText, { lineClass: 'overflow-hidden' });
 		const splitLoaderIn = [
 			splitLoader.words,
