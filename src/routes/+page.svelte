@@ -33,7 +33,6 @@
 		];
 		const animateLoaderBG = [loaderBG, { y: '-100%' }, { duration: 0.8, at: '-0.35' }];
 
-		// Split and animate the text
 		const splitHero = new SplitType(heroText, { lineClass: 'overflow-hidden -my-16' });
 		const animateHero = [
 			splitHero.words,
