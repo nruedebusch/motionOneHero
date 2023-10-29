@@ -47,7 +47,6 @@
 		// Animate CTA button
 		const animateCTA = [ctaButton, { y: ['100%', '0%'] }, { duration: 0.8, at: '-1' }];
 
-		// Create the timeline
 		timeline(
 			[
 				revealLoader,
