@@ -94,7 +94,7 @@
 		</div>
 	</button>
 
-	<!-- Loader -->
+
 	<div class="z-50 fixed h-screen w-screen flex items-center justify-center">
 		<div bind:this={loaderBG} class="absolute bg-primary-400 w-full h-full" />
 		<span bind:this={loaderText} class="font-primary text-3xl text-light-100 relative opacity-0"
