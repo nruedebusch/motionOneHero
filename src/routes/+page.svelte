@@ -65,7 +65,7 @@
 </script>
 
 <div class="h-screen w-full flex items-center justify-center bg-primary-400 relative">
-	<!-- Hero text -->
+
 	<h1 bind:this={heroText} class="font-primary text-[8rem] text-center text-light-100 z-20">
 		Welcome<br />to the<br />Jungle
 	</h1>
