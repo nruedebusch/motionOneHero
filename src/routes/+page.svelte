@@ -70,7 +70,6 @@
 		Welcome<br />to the<br />Jungle
 	</h1>
 
-	<!-- Background image -->
 	<div class="absolute w-full h-full">
 		<div class="h-full w-full absolute bg-hero-fade" />
 		<img bind:this={bg} src={forestBG} alt="" class="blur-sm h-full w-full object-cover" />
