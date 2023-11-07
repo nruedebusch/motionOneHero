@@ -83,7 +83,6 @@
 		<img bind:this={right} src={forestRight} alt="" class="w-full min-h-full" />
 	</div>
 
-	<!-- CTA Button -->
 	<button
 		bind:this={ctaButton}
 		class="absolute -bottom-14 rounded-full p-4 border border-light-100"
