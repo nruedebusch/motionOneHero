@@ -1,4 +1,4 @@
-<script>
+l<script>
 	import { onMount } from 'svelte';
 	import { timeline, stagger } from 'motion';
 	import SplitType from 'split-type';
@@ -75,7 +75,6 @@
 		<img bind:this={bg} src={forestBG} alt="" class="blur-sm h-full w-full object-cover" />
 	</div>
 
-	<!-- Foreground images -->
 	<div class="absolute inset-0 overflow-hidden h-full w-2/5 flex items-center z-30 blur-md">
 		<img bind:this={left} src={forestLeft} alt="" class="w-full min-h-full" />
 	</div>
