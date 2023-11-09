@@ -1,4 +1,4 @@
-l<script>
+<script>
 	import { onMount } from 'svelte';
 	import { timeline, stagger } from 'motion';
 	import SplitType from 'split-type';
@@ -44,7 +44,6 @@ l<script>
 		const animateLeft = [left, { x: [-368, 0] }, { duration: 2, at: '<' }];
 		const animateRight = [right, { x: [368, 0] }, { duration: 2, at: '<' }];
 
-		// Animate CTA button
 		const animateCTA = [ctaButton, { y: ['100%', '0%'] }, { duration: 0.8, at: '-1' }];
 
 		timeline(
